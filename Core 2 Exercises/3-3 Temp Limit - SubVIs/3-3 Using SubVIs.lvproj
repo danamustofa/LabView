@@ -10,9 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Shared" Type="Folder" URL="../../Shared">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Shared" Type="Folder"/>
 		<Item Name="Dialog Properties.vi" Type="VI" URL="../Dialog Properties.vi"/>
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Set Scroll Bar State).vi" Type="VI" URL="../Set Scroll Bar State).vi"/>
@@ -40,8 +38,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -54,17 +50,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Convert 1DDbl to DDT 2.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert 1DDbl to DDT 2.vi"/>
-			<Item Name="DAQmx Control Task.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
-			<Item Name="DAQmx Create Channel (AI-Voltage-Basic).vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Voltage-Basic).vi"/>
-			<Item Name="DAQmx Create Channel (TEDS-AI-Voltage-Basic).vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Voltage-Basic).vi"/>
-			<Item Name="DAQmx Create Task.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
-			<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
-			<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
-			<Item Name="DAQmx Read.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
-			<Item Name="DAQmx Start Task.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
-			<Item Name="DAQmx Stop Task.vi" Type="VI" URL="../../Shared/Thermometer.vi/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Convert C to F.vi" Type="VI" URL="../../Supporting Files Core 2/Shared/Convert C to F.vi"/>
+			<Item Name="Read Voltage.vi" Type="VI" URL="../../Supporting Files Core 2/Shared/Read Voltage.vi"/>
+			<Item Name="Thermometer (Demo).vi" Type="VI" URL="../../Supporting Files Core 2/Shared/Thermometer (Demo).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
